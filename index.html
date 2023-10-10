@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike - Online Store</title>
 </head>
-<body>
-    <div class="header">
 
-        <div class="top-panel">
-            <img class="logo" src="./images/logo-nike.png" alt="main logo">
+<body>
+    <header class="header" id="header-section">
+
+        <nav class="top-panel">
+            <a href="#header-section"> <img class="logo" src="./images/logo-nike.png" alt="main logo"></a>
             <div class="links">
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-                <a href="#">About</a>
-                <a href="#">Reviews</a>
+                <a href="#header-section">Home</a>
+                <a href="#products-section">Products</a>
+                <a href="#prom-section">About</a>
+                <a href="#reviews-section">Reviews</a>
             </div>
             <div class="button">
-            <button class="shopnow">SHOP NOW</button>
+                <button class="shopnow">SHOP NOW</button>
             </div>
-        </div>
+        </nav>
 
         </br>
 
@@ -30,7 +32,7 @@
                 <h1>Walk the line.</h1>
                 <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
                 <p>Now that you have a ready strategy to move forward.</p>
-                <h2><strong>Price : $125</strong>  <b>$169</b></h2>
+                <h2><strong>Price : $125</strong> <b>$169</b></h2>
                 </br>
                 <div class="button">
                     <button>SHOP NOW</button>
@@ -39,9 +41,13 @@
                 </br>
                 </br>
                 <div class="information for users">
-                    <div><h1>70K</h1></div>
+                    <div>
+                        <h1>70K</h1>
+                    </div>
                     CUSTOMERS
-                    <div><h1>17K</h1></div>
+                    <div>
+                        <h1>17K</h1>
+                    </div>
                     REVIEWS
                 </div>
             </div>
@@ -60,8 +66,64 @@
                     <img src="./images/boot-3.png" alt="black boot">
                 </div>
             </div>
-    
+
         </div>
-    </div>
+    </header>
+
+    <main>
+
+        <div class="products" id="products-section">
+            <hgroup>
+                <div class="title-h2">
+                    <h2>Our Latest Product</h2>
+                </div>
+                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
+            </hgroup>
+
+            <div class="row">
+                <div class="col-1">
+                    <figure>
+                        <img src="./images/boot1-main.png" alt="ALIQUAM LOBORTIS">
+                        <figcaption>ALIQUAM LOBORTIS</figcaption>
+                    </figure>
+                    <img src="./images/5-stars.png" alt="five-stars">
+                    <div class="price"><b>$75.00 – $85.00</b></div>
+                    <button class="btn">SHOP NOW</button>
+                </div>
+
+                <div class="col-2">
+                    <figure>
+                        <img src="./images/boot2-main.png" alt="FUSCE ALIQUAM">
+                        <figcaption>FUSCE ALIQUAM</figcaption>
+                    </figure>
+                    <img src="./images/5-stars.png" alt="five-stars">
+                    <div class="price"><b>$65.00 – $75.00</b></div>
+                    <button class="btn">SHOP NOW</button>
+                </div>
+
+                <div class="col-3">
+                    <figure>
+                        <img src="./images/boot3-main.png" alt="AIR SUPERIORITY">
+                        <figcaption>AIR SUPERIORITY</figcaption>
+                    </figure>
+                    <img src="./images/5-stars.png" alt="five-stars">
+                    <div class="price"><b>$35.00 – $45.00</b></div>
+                    <button class="btn">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="promo" id="promo-section"></div>
+        <div class="advantages" id="advantages-section"></div>
+        <div class="reviews" id="reviews-section"></div>
+        <div class="get-started" id="get-started-section"></div>
+
+    </main>
+
+
+    <footer class="footer" id="footer-section"></footer>
+
 </body>
+
 </html>
