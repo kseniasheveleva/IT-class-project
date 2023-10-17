@@ -5,212 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike - Online Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header" id="header-section">
 
-        <nav class="top-panel">
-            <a href="#header-section"><img class="logo" src="./images/nike-main-logo-svg.svg" alt="main logo"></a>
-            <div class="links">
-                <a href="#header-section">Home</a>
-                <a href="#products-section">Products</a>
-                <a href="#promo-section">About</a>
-                <a href="#reviews-section">Reviews</a>
+    <header class="header">
+        <div class="container">
+            <div class="top-panel">
+                <img src="./images/nike-main-logo-svg.svg" alt="nike logo">
+                <nav class="navigation">
+                    <a href="#" class="nav-link nav-link-active">Home</a>
+                    <a href="#" class="nav-link">Product</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Review</a>
+                </nav>
+                <button class="btn">Shop now</button>
             </div>
-            <div class="btn">
-                <button class="shopnow">SHOP NOW</button>
-            </div>
-        </nav>
 
-        </br>
+            <div class="left-block">
 
-        <div class="header-content">
-
-            <div class="left">
                 <hgroup>
-                    <h2>Bring power to your steps. <img src="./images/nike-green-logo-svg.svg" alt="green logo"></h2>
-                <h1>Walk the line.</h1>
-                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
-                <p>Now that you have a ready strategy to move forward.</p>
-                <h2><strong>Price : $125</strong> <b>$169</b></h2>
+                    <div class="title-and-logo">
+                        <h3 class="subsubtitle">Bring power to your steps.</h3>
+                        <img src="./images/nike-green-logo-svg.svg" alt="green logo">
+                    </div>
+
+                    <h1 class="title">Walk the line.</h1>
+
+                    <div class="body-base">
+                        <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
+                        <p>Now that you have a <a class="banner-link" href="#">ready strategy</a> to move forward,</p>
+                    </div>
                 </hgroup>
-                </br>
-                <div class="btn">
-                    <button>SHOP NOW</button>
-                    <button>LEARN MORE</button>
-                </div>
-                </br>
-                </br>
-                <div class="information for users">
-                    <div>
-                        <h1>70K</h1>
-                    </div>
-                    CUSTOMERS
-                    <div>
-                        <h1>17K</h1>
-                    </div>
-                    REVIEWS
-                </div>
-            </div>
 
-            <div class="right">
                 <div>
-                    <img class="discount" src="./images/discount.png" alt="discount">
-                </div>
-                <img src="./images/sneakers.png" alt="sneakers">
-                <div class="boots">
-                    <img src="./images/boot-1.png" alt="green boot">
-                    <img src="./images/boot-2.png" alt="red boot">
-                    <img src="./images/boot-3.png" alt="black boot">
-                </div>
-            </div>
-
-        </div>
-    </header>
-
-    <main>
-
-        <section class="products" id="products-section">
-            <hgroup>
-                <div class="title-h2">
-                    <h2>Our Latest Product</h2>
-                </div>
-                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
-            </hgroup>
-
-            <div class="row">
-                <div class="col-1">
-                    <figure>
-                        <img src="./images/boot1-main.png" alt="ALIQUAM LOBORTIS">
-                        <figcaption>ALIQUAM LOBORTIS</figcaption>
-                    </figure>
-                    <img src="./images/5-stars.png" alt="rating">
-                    <div class="price"><b>$75.00 – $85.00</b></div>
-                    <button class="btn">SHOP NOW</button>
+                    <h2 class="price">Price : $125</h2>
+                    <h2 class="price old-price">$169</h2>
                 </div>
 
-                <div class="col-2">
-                    <figure>
-                        <img src="./images/boot2-main.png" alt="FUSCE ALIQUAM">
-                        <figcaption>FUSCE ALIQUAM</figcaption>
-                    </figure>
-                    <img src="./images/5-stars.png" alt="rating">
-                    <div class="price"><b>$65.00 – $75.00</b></div>
-                    <button class="btn">SHOP NOW</button>
+                <div class="buttons">
+                    <button class="btn">Shop now</button>
+                    <button class="btn second-btn-style">Learn more</button>
                 </div>
 
-                <div class="col-3">
-                    <figure>
-                        <img src="./images/boot3-main.png" alt="AIR SUPERIORITY">
-                        <figcaption>AIR SUPERIORITY</figcaption>
-                    </figure>
-                    <img src="./images/5-stars.png" alt="rating">
-                    <div class="price"><b>$35.00 – $45.00</b></div>
-                    <button class="btn">SHOP NOW</button>
-                </div>
-            </div>
-        </section>
-
-        <section class="promo" id="promo-section">
-            <hgroup>
-                <div class="title-h2">
-                    <h2>Telling your story with videos</h2>
-                </div>
-                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
-            </hgroup>
-            <img src="./images/sneakers-video.png" alt="promo-video">
-        </section>
-
-        <section class="advantages" id="advantages-section">
-            <img src="./images/photo-of-man.png" alt="photo of man">
-            <div class="title-h2">
-                <h2>The best shoes for the best people.</h2>
-            </div>
-
-            <div class="list">
-                <div class="list-item-1">
-                    <img src="./images/small-logo.svg" alt="marker">
-                    <span>Now that you have a ready strategy to move forward, it’s time to come up with some
-                        ideas.</span>
-                </div>
-                <div class="list-item-2">
-                    <img src="./images/small-logo.svg" alt="marker">
-                    <span>Now that you have a ready strategy to move forward, it’s time to come up with some
-                        ideas.</span>
-                </div>
-                <div class="list-item-3">
-                    <img src="./images/small-logo.svg" alt="marker">
-                    <span>Now that you have a ready strategy to move forward, it’s time to come up with some
-                        ideas.</span>
-                </div>
-                <div class="list-item-4">
-                    <img src="./images/small-logo.svg" alt="marker">
-                    <span>Now that you have a ready strategy to move forward, it’s time to come up with some
-                        ideas.</span>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="reviews" id="reviews-section">
-
-            <div class="left-sidebar">
-                <div class="arrows">
-                    <img src="./images/arrow-left.svg" alt="left arrow">
-                    <img src="./images/arrow-right.svg" alt="right arrow">
-                </div>
-
-                <div class="btn">
-                    <button>More Review</button>
-                </div>
-            </div>
-
-            <div class="right-sidebar">
-                <h3>Greatest Reviews</h3>
-                <img src="./images/profile-picture.png" alt="profile picture">
                 <div class="information">
-                    <b>Shahriar Sohag</b>
-                    <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
-                    <img src="./images/5-stars.png" alt="rating">
-                    <span><b>UI Designer</b></span>
-                    <hr>
+                    <div class="info-block">
+                        <div class="info-num">70k</div>
+                        <div class="info-text text-center">customers</div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-num">17k</div>
+                        <div class="info-text text-center">reviews</div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="get-started" id="get-started-section">
-            <hgroup>
-                <h2>Get Started Now</h2>
-                <p>Now that you have a ready strategy to move forward, it’s time to come up with some ideas.</p>
-            </hgroup>
-            <div class="btn">
-                <button>SUBSCRIBE</button>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer" id="footer-section">
-        <hr>
-        <nav class="low-panel">
-            <a href="#header-section"><img class="logo" src="./images/nike-main-logo-svg.svg" alt="main logo"></a>
-            <div class="links">
-                <a href="#header-section">Home</a>
-                <a href="#products-section">Products</a>
-                <a href="#promo-section">About</a>
-                <a href="#reviews-section">Reviews</a>
-            </div>
-        </nav>
-
-        <div class="contacts">
-            <b>Follow us:</b>
-            <img src="./images/fb.svg" alt="facebook icon">
-            <img src="./images/twitter.svg" alt="twitter icon">
-            <img src="./images/insta.svg" alt="instagram icon">
-        </div>
-    </footer>
-
+    </header>
 </body>
 
 </html>
