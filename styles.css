@@ -66,13 +66,15 @@ a {
 }
 
 .container {
-    width: 1140px;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .header {
     height: 850px;
-    /* background: #EBFFE4 url(./images/header-lines.svg) no-repeat right top; */
+    border-top: 1px solid #EBFFE4;
     background-color: #EBFFE4;
     background-image: url(./images/header-lines.svg);
     background-repeat: no-repeat;
@@ -87,7 +89,7 @@ a {
 }
 
 .left-block {
-    width: 430px;
+    max-width: 430px;
     height: 566px;
     margin-top: 112px;
 }
@@ -133,6 +135,7 @@ a {
 
 .title-and-logo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -189,6 +192,7 @@ a {
 
 .product-card {
     display: flex;
+    flex-wrap: wrap;
     grid-column-gap: 30px;
     justify-content: center;
 }
@@ -235,4 +239,22 @@ a {
 
 .rating .star:hover~ .star {
     background-image: url(./images/star-empty.svg);
+}
+
+.sidebar {
+    display: none;
+}
+
+.burger-icon {
+    height: 2px;
+    width: 18px;
+    background: #000;
+    margin: 30px 0 10px 10px;
+}
+
+@media screen and (max-width: 786px) {
+    .top-panel {
+        display: none
+    }
+
 }
